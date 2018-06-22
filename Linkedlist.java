@@ -26,7 +26,7 @@ public class Linkedlist{
         
     }
    void delete(int data){
-        if(head!=null){
+        if(head==null){
             return;
         }
         Node current =head;
