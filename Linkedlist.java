@@ -29,6 +29,11 @@ public class Linkedlist{
         if(head==null){
             return;
         }
+       if(head.data==data){
+            head = head.next;
+            System.out.println(head.data);
+            return;
+        }
         Node current =head;
         while(current.next!=null){
             
